@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "My awesome portfolio projects.",
+  "main": "index.js",
+  "authors": {
+    "name": "Adam",
+    "email": "adam.h.dev1@gmail.com"
+  },
+  "repository": "/portfolio",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
