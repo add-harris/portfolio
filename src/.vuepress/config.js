@@ -1,14 +1,14 @@
-const { description } = require('../../package')
+const { description } = require('../../package.json')
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Adam Harrison - Software Developer',
+  title: 'binxly.co.uk',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: "Software Developer - Adam Harrison",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`

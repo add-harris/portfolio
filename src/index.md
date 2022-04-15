@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
+tagline: Software by Adam Harrison
 actionText: Projects →
 actionLink: /projects/
 footer: Made by Adam with ❤️

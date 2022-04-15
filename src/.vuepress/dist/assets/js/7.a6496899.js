@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{403:function(t,e,s){"use strict";s.r(e);var n={name:"test",props:{jazz:{type:Text,default:"default text"}}},a=s(56),i=Object(a.a)(n,(function(){var t=this.$createElement;return(this._self._c||t)("h1",[this._v(this._s(this.jazz))])}),[],!1,null,"213c7290",null);e.default=i.exports}}]);
