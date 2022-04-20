@@ -8,3 +8,17 @@
 - link to github
 - hosted on github pages
 - cloud build??
+
+
+
+<img-carousel></img-carousel>
+
+<script>
+import ImgCarousel from "../.vuepress/components/ImgCarousel";
+    
+export default {
+        
+    components: {ImgCarousel}
+
+}
+</script>
