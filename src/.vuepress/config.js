@@ -10,6 +10,8 @@ module.exports = {
    */
   description: "Software Developer - Adam Harrison",
 
+  port: 3031,
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -32,6 +34,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    quotesUrl: process.env.NODE_ENV === "development" ? "http://localhost:8080" : "https://quotes-api-sv3nhcltwa-nw.a.run.app",
     nav: [
       {
         text: 'Cloud Computing',
