@@ -18,3 +18,9 @@ git commit -m 'deploy'
 git branch -m master main
 git remote add origin git@github.com:add-harris/add-harris.github.io.git
 git push -u origin main -f
+
+echo "cleaning up:"
+ls
+cd ..
+rm -rf dist
+echo "clean up complete"

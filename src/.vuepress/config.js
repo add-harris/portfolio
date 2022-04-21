@@ -42,11 +42,11 @@ module.exports = {
       },
       {
         text: 'Frontend',
-        link: '/frontend-dev/'
+        link: '/frontend/'
       },
       {
         text: 'Backend',
-        link: '/backend-dev/'
+        link: '/backend/'
       },
       {
         text: 'Github',
@@ -54,7 +54,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/frontend-dev/': [
+      '/frontend/': [
         {
           title: 'Frontend',
           collapsable: false,
