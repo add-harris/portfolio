@@ -33,7 +33,7 @@ Give it a try...
 <quote-box :url="$themeConfig.quotesUrl"/>
 :::
 
-### Usage
+### Usage :notebook_with_decorative_cover:
 
 #### Example Request
 
@@ -41,37 +41,38 @@ Give it a try...
 curl -v https://quotes-api-sv3nhcltwa-nw.a.run.app/v1/quotes/kanye
 ```
 
-The API is freely available on the internet at 
+This is a live API, freely available on the internet at 
 [https://quotes-api-sv3nhcltwa-nw.a.run.app](https://quotes-api-sv3nhcltwa-nw.a.run.app/v1/quotes/kanye)
 
-The source code, along with examples of how to use the API, 
-are available in the [project repo](https://github.com/add-harris/quotes-service).
+The source code, along with examples of how to use it, 
+are available here in the [project repo](https://github.com/add-harris/quotes-service).
 
 It is also documented with OpenAPI 3 specifications with a Swagger-UI 
 available [here](https://editor.swagger.io/?url=https://raw.githubusercontent.com/add-harris/quotes-service/main/src/main/resources/openapi.yaml).
 
-### Tech Stack
+### Tech Stack :man_technologist:
 
 Although the majority of professional experience is with Java 11 and Spring-Boot,
-this API is actually built using some of the latest JVM technologies:
+this API is actually built using some alternative latest JVM technologies:
 
-- Java 17
-- Kotlin
-- Quarkus
-- Docker
+>- [Java 17](https://openjdk.java.net/projects/jdk/17/)
+>- [Kotlin](https://kotlinlang.org/)
+>- [Quarkus](https://quarkus.io/)
+>- [Maven](https://maven.apache.org/)
+>- and [Docker](https://www.docker.com/?)
 
 Comprehensively tested with:
 
-- Junit 5
-- mockk
-- and RestAssured
+>- [Junit 5](https://junit.org/junit5/)
+>- [mockk](https://mockk.io/) (a dedicated mocking library for Kotlin)
+>- and [RestAssured](https://rest-assured.io/)
 
 And has a fully automated CI/CD pipeline in place using:
 
-- Github
-- Google Cloud Build
-- Google Container Registry
-- Google Cloud Run
+>- [Github](https://github.com/)
+>- [Google Cloud Build](https://cloud.google.com/build)
+>- [Google Container Registry](https://cloud.google.com/container-registry)
+>- [Google Cloud Run](https://cloud.google.com/run)
 
 
 <script>

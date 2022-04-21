@@ -3,9 +3,8 @@
   <carousel
       :per-page="1"
       :navigation-enabled="true"
-      class="carousel-custom">
-    <slide v-for="url in sources" :key="url"
-           @slideclick="handleSlideClick">
+      :style="customStyle">
+    <slide v-for="url in sources" :key="url">
       <img :src="url">
     </slide>
   </carousel>
@@ -23,32 +22,28 @@ export default {
     Carousel, Slide
   },
 
-  data() {
-    return {
-      model: 0,
-      sources: [
-        "https://storage.googleapis.com/portfolio_images_src/portfolio/2048/2048-1.png",
-        "https://storage.googleapis.com/portfolio_images_src/portfolio/2048/2048-2.png",
-        "https://storage.googleapis.com/portfolio_images_src/portfolio/2048/2048-3.png",
-        "https://storage.googleapis.com/portfolio_images_src/portfolio/2048/2048-6.png",
-      ]
+  props: {
+    sources: {
+      type: Array,
+      default: []
+    },
+    width: {
+      type: String,
+      default: "500"
     }
   },
 
-  methods: {
-    handleSlideClick (dataset) {
-      this.model++
-      console.log(dataset.index, dataset.name)
+  computed: {
+    customStyle() {
+      return {
+        "width": `${this.width}px`
+      }
     }
-  },
+  }
 
 }
 </script>
 
 <style scoped>
-
-.carousel-custom {
-  max-width: 500px;
-}
 
 </style>

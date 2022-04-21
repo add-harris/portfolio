@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Software by Adam Harrison
-actionText: Projects →
-actionLink: /projects/
+tagline: Adam Harrison - Software Developer
+actionText: Get Started →
+actionLink: /cloud-computing/
 footer: Made by Adam with ❤️
 ---
 
