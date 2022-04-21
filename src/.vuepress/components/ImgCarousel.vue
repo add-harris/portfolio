@@ -36,7 +36,7 @@ export default {
   computed: {
     customStyle() {
       return {
-        "width": `${this.width}px`
+        "maxWidth": `${this.width}px`
       }
     }
   }
