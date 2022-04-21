@@ -10,8 +10,6 @@ Welcome to my Camera Roll...
 
 Carousel of St Lucia Here
 
-## Family
-
 ## Google Cloud Platform - GCP
 
 __All the media content for this site is stored and served

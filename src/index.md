@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: programming.png
 tagline: Adam Harrison - Software Developer
 actionText: Get Started →
 actionLink: /cloud-computing/
@@ -11,5 +11,6 @@ footer: Made by Adam with ❤️
 
 <script>
 import FeaturesLinks from "./.vuepress/components/FeaturesLinks";
-export default { components: {FeaturesLinks} }
+import CreditTag from "./.vuepress/components/CreditTag";
+export default { components: {FeaturesLinks, CreditTag} }
 </script>
