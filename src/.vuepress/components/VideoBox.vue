@@ -1,8 +1,8 @@
 <template>
 
-  <video class="video-box" controls playsinline onloadstart="this.volume=0.5">
-    <source :src="ogg" type="video/ogg">
+  <video class="video-box" controls playsinline onloadstart="this.volume=0.5" onclick="this.play()">
     <source :src="mp" type="video/mp4">
+    <source :src="ogg" type="video/ogg">
     Your browser does not support this media.
   </video>
 
