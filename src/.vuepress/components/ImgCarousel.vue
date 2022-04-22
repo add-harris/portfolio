@@ -36,7 +36,9 @@ export default {
   computed: {
     customStyle() {
       return {
-        "maxWidth": `${this.width}px`
+        "maxWidth": `${this.width}px`,
+        "display": "block",
+        "margin": "auto"
       }
     }
   }
