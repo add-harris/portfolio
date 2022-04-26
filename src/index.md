@@ -1,6 +1,8 @@
 ---
 home: true
-heroImage: programming.png
+
+[//]: # (heroImage: programming.png)
+heroImage: gameboy.png
 tagline: Adam Harrison - Software Developer
 actionText: Get Started →
 actionLink: /cloud-computing/

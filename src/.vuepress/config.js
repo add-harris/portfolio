@@ -29,7 +29,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    logo: '/gameboy.png',
+    // logo: '/programming.png',
+    repo: 'https://github.com/add-harris',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -48,10 +50,6 @@ module.exports = {
         text: 'Backend',
         link: '/backend/'
       },
-      {
-        text: 'Github',
-        link: 'https://github.com/add-harris'
-      }
     ],
     sidebar: {
       '/frontend/': [

@@ -19,7 +19,7 @@ sources:
 
 Before we talk about Cloud Computing, first let me show you something from Camera Roll... :camera:
 
-## St Lucia
+## St Lucia :palm_tree::sunny:
 
 Here are some snaps from our family holiday to 
 [St Lucia](https://www.google.com/maps/place/St+Lucia/@13.9128128,-61.1106027,11z/data=!3m1!4b1!4m5!3m4!1s0x8c406065f12da31d:0x6e7486c4e8399df5!8m2!3d13.909444!4d-60.978893), 
@@ -27,21 +27,23 @@ back in 2019:
 
 <img-carousel :sources="$frontmatter.sources"></img-carousel>
 
-## TikTok
+## TikTok :smile_cat:
 
-This is TikTok account I found during lockdown of Chef-Cat that makes 
-human food :dango: :fried_shrimp: :shaved_ice: :yum:
+This is TikTok account [@thatlittlepuff](https://www.tiktok.com/@thatlittlepuff?lang=en) 
+that I found during lockdown of Chef-Cat that makes 
+cocktails and human food :fried_shrimp::dango::shaved_ice: :yum:
 
 <video-box :ogg="$frontmatter.video.ogg" :mp="$frontmatter.video.mp"></video-box>
 
-How amazing is that !? :heart_eyes:
+How amazing is that !? :heart_eyes_cat:
 
 ## "That's lovely, but why?" you ask...
 
 __All the media content for this site is stored and served
 using [Google Cloud Storage](https://cloud.google.com/storage) (Googles equivalent of Amazon S3).__
 
-Its available publicly using urls like this:
+They are set up in my personal GCP account and made 
+available publicly using urls like this:
 
 >- <span class="wrap-text">[https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5580.JPG](https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5580.JPG)</span>
 
