@@ -11,18 +11,13 @@ So I built a small demo project just for this portfolio, and....
 
 # :tada: :information_desk_person:
 
-## Kanye REST API
+## Kanye REST API :fire:
 
 Voila! ... Welcome to the Kanye REST API (Replica). A replica of the [Kayne REST project](https://kanye.rest/).
 
 
 ><h4 class="quote">A free REST API for random Kanye West quotes (Kanye as a Service)</h4>
- 
-<style>
-.quote {
-  color: dodgerblue;
-}
-</style>
+
 
 Just to be clear, this is replica of an API I made for returning randomized Kanye Quest quotes.
 What more could you ever want from an API?
@@ -77,10 +72,13 @@ And has a fully automated CI/CD pipeline in place using:
 
 <script>
 import QuoteBox from "../.vuepress/components/QuoteBox";
-    
 export default {
-        
     components: {QuoteBox}
-
 }
 </script>
+
+<style>
+.quote {
+  color: dodgerblue;
+}
+</style>

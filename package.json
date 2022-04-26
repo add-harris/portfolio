@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "axios": "^0.26.1",
-    "vue-carousel": "^0.18.0"
+    "vue-carousel": "^0.18.0",
+    "vuepress-plugin-dehydrate": "^1.1.5"
   }
 }

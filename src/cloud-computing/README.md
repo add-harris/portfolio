@@ -7,8 +7,6 @@ sources:
   - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5580.JPG"
   - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-20220421-WA0000.jpg"
   - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-20220421-WA0020.jpg"
-#  - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5637.JPG"
-#  - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-20220421-WA0001.jpg"
   - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-20220421-WA0012.jpg"
   - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-20220421-WA0016.jpg"
   - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-20220421-WA0017.jpg"
@@ -17,7 +15,7 @@ sources:
   - "https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-20220421-WA0022.jpg"
 ---
 
-# Cloud Computing
+# Cloud Computing :partly_sunny:
 
 Before we talk about Cloud Computing, first let me show you something from Camera Roll... :camera:
 
@@ -45,7 +43,7 @@ using [Google Cloud Storage](https://cloud.google.com/storage) (Googles equivale
 
 Its available publicly using urls like this:
 
->- [https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5580.JPG](https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5580.JPG)
+>- <span class="wrap-text">[https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5580.JPG](https://storage.googleapis.com/portfolio_images_src/portfolio/st-lucia/IMG-5580.JPG)</span>
 
 In fact most of the projects in this portfolio
 incorporate some form of Google Cloud technology.
@@ -72,7 +70,14 @@ giving my great working knowledge over a host GCP technologies, including:
 
 ## Amazon Web Services - AWS
 
-The majority of my professional experience has been working with AWS technologies, such as:
+The majority of my professional experience has been working in 
+[AWS cloud](https://aws.amazon.com/).
+Most projects I've been a part of since around 2017 have been hosted there, 
+and I'm not one to shy away from a bit of DevOps.
+This has given me plenty of hands-on experience with AWS technologies, from 
+[S3](https://aws.amazon.com/s3/) buckets 
+to [EC2](https://aws.amazon.com/ec2/) instances, 
+load balancers and more:
 
 >- [S3](https://aws.amazon.com/s3/)
 >- [SQS](https://aws.amazon.com/sqs/)
@@ -85,3 +90,12 @@ import ImgCarousel from "../.vuepress/components/ImgCarousel";
 import VideoBox from "../.vuepress/components/VideoBox";
 export default { components: {ImgCarousel, VideoBox} }
 </script>
+
+<style>
+
+.wrap-text {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+</style>

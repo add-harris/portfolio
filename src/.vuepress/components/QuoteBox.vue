@@ -2,7 +2,7 @@
 
   <div class="qb">
     <p class="qb-para">
-      {{ quote }}
+      "{{ quote }}"
     </p>
     <button class="action-button qb-button" @click="getQuote">
       Get Quote
@@ -28,7 +28,7 @@ export default {
 
   data() {
     return {
-      quote: "..."
+      quote: " . . . "
     }
   },
 
@@ -67,6 +67,8 @@ export default {
   padding: 20px;
   font-size: 1.2em;
   text-align: center;
+  font-style: italic;
+  /*font-weight: bold;*/
 }
 
 </style>

@@ -3,15 +3,15 @@
   <div class="features">
     <div class="feature">
       <h2><router-link to="/cloud-computing/">Cloud Computing</router-link></h2>
-      <p>Minimal setup with markdown-centered project structure helps you focus on writing.</p>
+      <p>Technologies such as AWS and GCP, as well as containerization tools like Docker and Kubernetes.</p>
     </div>
     <div class="feature">
       <h2><router-link to="/frontend/">Frontend</router-link></h2>
-      <p>Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.</p>
+      <p>JavaScript technologies like NodeJS, VueJs and Nuxt!</p>
     </div>
     <div class="feature">
       <h2><router-link to="/backend/">Backend</router-link></h2>
-      <p>VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.</p>
+      <p>Some of the latest JVM technologies - Spring-Boot, Java 17, Kotlin and Quarkus</p>
     </div>
   </div>
 
